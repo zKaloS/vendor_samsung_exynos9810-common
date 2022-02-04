@@ -209,7 +209,6 @@ PRODUCT_PACKAGES += \
     libhfd \
     libstagefright_omx_vendor \
     libaudioroute.exynos9810 \
-    libstagefright_omx_utils \
     libtinyalsa.exynos9810 \
     android.hardware.gnss@2.0-impl \
     gps.default \
