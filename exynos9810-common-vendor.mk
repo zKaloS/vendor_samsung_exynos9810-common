@@ -98,9 +98,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos9810-common/proprietary/vendor/firmware/score/develop1/score_dummy:$(TARGET_COPY_OUT_VENDOR)/firmware/score/develop1/score_dummy \
     vendor/samsung/exynos9810-common/proprietary/vendor/firmware/vts.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin \
     vendor/samsung/exynos9810-common/proprietary/vendor/lib/libmalicore.bc:$(TARGET_COPY_OUT_VENDOR)/lib/libmalicore.bc \
-    vendor/samsung/exynos9810-common/proprietary/vendor/lib/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilutils.so \
     vendor/samsung/exynos9810-common/proprietary/vendor/lib64/libmalicore.bc:$(TARGET_COPY_OUT_VENDOR)/lib64/libmalicore.bc \
-    vendor/samsung/exynos9810-common/proprietary/vendor/lib64/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so \
     vendor/samsung/exynos9810-common/proprietary/vendor/openvx/cost/cost_c_iva.dat:$(TARGET_COPY_OUT_VENDOR)/openvx/cost/cost_c_iva.dat \
     vendor/samsung/exynos9810-common/proprietary/vendor/openvx/cost/cost_c_neon.dat:$(TARGET_COPY_OUT_VENDOR)/openvx/cost/cost_c_neon.dat \
     vendor/samsung/exynos9810-common/proprietary/vendor/openvx/cost/cost_c_score.dat:$(TARGET_COPY_OUT_VENDOR)/openvx/cost/cost_c_score.dat \
