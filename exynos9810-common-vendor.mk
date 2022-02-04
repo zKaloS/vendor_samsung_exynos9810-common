@@ -152,7 +152,7 @@ PRODUCT_PACKAGES += \
     libion_exynos \
     libiva_android_hal \
     libqfp_sensortest \
-    libril \
+    libril-samsung \
     libsec-ril-dsds \
     libsec-ril \
     libsecaudiocoreutils \
