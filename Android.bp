@@ -2167,23 +2167,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.samsung_slsi.hardware.configstore@1.0",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.samsung_slsi.hardware.configstore@1.0.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libaptX_encoder",
 	owner: "samsung",
 	strip: {
@@ -2293,19 +2276,6 @@ cc_prebuilt_binary {
 	name: "vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service",
 	owner: "samsung",
 	srcs: ["proprietary/vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	relative_install_path: "hw",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "vendor.samsung_slsi.hardware.configstore@1.0-service",
-	owner: "samsung",
-	srcs: ["proprietary/vendor/bin/hw/vendor.samsung_slsi.hardware.configstore@1.0-service"],
 	check_elf_files: false,
 	strip: {
 		none: true,
