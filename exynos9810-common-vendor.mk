@@ -136,7 +136,6 @@ PRODUCT_PACKAGES += \
     libbauthtzcommon \
     libcsc \
     libegis_fp_normal_sensor_test \
-    libengmode_client \
     libexynosdisplay \
     libexynosgscaler \
     libexynosscaler \
@@ -149,9 +148,6 @@ PRODUCT_PACKAGES += \
     libion_exynos \
     libiva_android_hal \
     libqfp_sensortest \
-    libril-samsung \
-    libsec-ril-dsds \
-    libsec-ril \
     libsecaudiocoreutils \
     libsecaudioinfo \
     libsecnativefeature \
@@ -183,10 +179,6 @@ PRODUCT_PACKAGES += \
     libmyspace \
     libplaybackrecorder \
     vendor.samsung.hardware.audio@1.0 \
-    vendor.samsung.hardware.radio.bridge@2.0 \
-    vendor.samsung.hardware.radio.channel@2.0 \
-    vendor.samsung.hardware.radio@2.0 \
-    vendor.samsung.hardware.radio@2.1 \
     audio.primary.exynos9810 \
     libSamsungPostProcessConvertor \
     lib_SamsungRec_06006 \
@@ -205,17 +197,33 @@ PRODUCT_PACKAGES += \
     libstagefright_omx_vendor \
     libaudioroute.exynos9810 \
     libtinyalsa.exynos9810 \
+    android.hardware.radio.config@1.0 \
+    android.hardware.radio.config@1.1 \
+    android.hardware.radio.config@1.2 \
+    android.hardware.radio.deprecated@1.0 \
+    android.hardware.radio@1.2 \
+    android.hardware.radio@1.3 \
+    android.hardware.radio@1.4 \
     android.hardware.gnss@2.0-impl \
     gps.default \
     keystore.mdfpp \
     vendor.samsung.hardware.gnss@2.0-impl \
     libLLVM_android_mali \
     libbcc_mali \
+    libengmode_client \
     libflicker \
     libkeymaster2_mdfpp \
     libmpp \
+    libril_sem \
+    libsec-ril \
     libskeymaster3device \
     vendor.samsung.hardware.gnss@2.0 \
+    vendor.samsung.hardware.radio.bridge@2.0 \
+    vendor.samsung.hardware.radio.bridge@2.1 \
+    vendor.samsung.hardware.radio.channel@2.0 \
+    vendor.samsung.hardware.radio@2.0 \
+    vendor.samsung.hardware.radio@2.1 \
+    vendor.samsung.hardware.radio@2.2 \
     vendor.samsung.hardware.security.widevine.keyprovisioning@1.0 \
     vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0 \
     libaptX_encoder \
