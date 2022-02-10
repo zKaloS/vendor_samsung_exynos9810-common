@@ -197,13 +197,6 @@ PRODUCT_PACKAGES += \
     libstagefright_omx_vendor \
     libaudioroute.exynos9810 \
     libtinyalsa.exynos9810 \
-    android.hardware.radio.config@1.0 \
-    android.hardware.radio.config@1.1 \
-    android.hardware.radio.config@1.2 \
-    android.hardware.radio.deprecated@1.0 \
-    android.hardware.radio@1.2 \
-    android.hardware.radio@1.3 \
-    android.hardware.radio@1.4 \
     android.hardware.gnss@2.0-impl \
     gps.default \
     keystore.mdfpp \
@@ -236,5 +229,4 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.gnss@2.0-service \
     vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service \
     mcDriverDaemon \
-    secril_config_svc \
     vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service
