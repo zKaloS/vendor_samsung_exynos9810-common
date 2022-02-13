@@ -107,9 +107,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos9810-common/proprietary/vendor/openvx/xml/_hifi_still_schedule.xml:$(TARGET_COPY_OUT_VENDOR)/openvx/xml/_hifi_still_schedule.xml
 
 PRODUCT_PACKAGES += \
-    camera.device@1.0-impl \
-    camera.device@3.3-impl \
-    camera.device@3.5-impl \
+    camera.device@1.0-impl.exynos9810 \
+    camera.device@3.3-impl.exynos9810 \
+    camera.device@3.5-impl.exynos9810 \
     libGLES_mali \
     gatekeeper.exynos9810 \
     gralloc.exynos9810 \
