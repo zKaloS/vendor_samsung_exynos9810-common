@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/mobicore.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mobicore.rc \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc \
-    vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/wifi_brcm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_brcm.rc \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
@@ -218,7 +217,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio@2.1 \
     vendor.samsung.hardware.radio@2.2 \
     vendor.samsung.hardware.security.widevine.keyprovisioning@1.0 \
-    vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0 \
     libaptX_encoder \
     bcc_mali \
     cbd \
@@ -227,6 +225,5 @@ PRODUCT_PACKAGES += \
     lhd \
     rild \
     vendor.samsung.hardware.gnss@2.0-service \
-    vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service \
     mcDriverDaemon \
     vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service
