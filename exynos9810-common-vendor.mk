@@ -98,6 +98,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libGLES_mali \
+    vulkan.mali \
     libgpudataproducer \
     camera.device@1.0-impl.exynos9810 \
     camera.device@3.3-impl.exynos9810 \
