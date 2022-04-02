@@ -193,6 +193,7 @@ PRODUCT_PACKAGES += \
     libcodecdspdump \
     libdatamod \
     libhfd \
+    libprofileparamstorage \
     libstagefright_omx_vendor \
     libaudioroute.exynos9810 \
     libtinyalsa.exynos9810 \
