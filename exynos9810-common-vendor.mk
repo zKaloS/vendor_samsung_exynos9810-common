@@ -203,6 +203,7 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.gnss@2.0-impl \
     libLLVM_android_mali \
     libbcc_mali \
+    libbt-vendor.exynos9810 \
     libengmode_client \
     libflicker \
     libkeymaster2_mdfpp \
