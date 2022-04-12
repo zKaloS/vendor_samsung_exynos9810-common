@@ -195,48 +195,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "sound_trigger.primary.exynos9810",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/hw/sound_trigger.primary.exynos9810.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/sound_trigger.primary.exynos9810.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	relative_install_path: "hw",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.samsung.hardware.audio@1.0-impl",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/vendor.samsung.hardware.audio@1.0-impl.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	relative_install_path: "hw",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libExynosHWCService",
 	owner: "samsung",
 	strip: {
@@ -428,46 +386,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libSEF.quram.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "lib_SoundAlive_3DPosition_ver202",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/lib_SoundAlive_3DPosition_ver202.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/lib_SoundAlive_3DPosition_ver202.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "lib_SoundAlive_AlbumArt_ver105",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/lib_SoundAlive_AlbumArt_ver105.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -828,26 +746,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqfp_sensortest.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libsecaudiocoreutils",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libsecaudiocoreutils.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libsecaudiocoreutils.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -1328,170 +1226,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudioeffectoffload",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/soundfx/libaudioeffectoffload.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/soundfx/libaudioeffectoffload.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	relative_install_path: "soundfx",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libaudiosaplus_sec",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/soundfx/libaudiosaplus_sec.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/soundfx/libaudiosaplus_sec.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	relative_install_path: "soundfx",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libgearvr",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/soundfx/libgearvr.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/soundfx/libgearvr.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	relative_install_path: "soundfx",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libmysound",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/soundfx/libmysound.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/soundfx/libmysound.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	relative_install_path: "soundfx",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libmyspace",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/soundfx/libmyspace.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/soundfx/libmyspace.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	relative_install_path: "soundfx",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libplaybackrecorder",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/soundfx/libplaybackrecorder.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/soundfx/libplaybackrecorder.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	relative_install_path: "soundfx",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.samsung.hardware.audio@1.0",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/vendor.samsung.hardware.audio@1.0.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.audio@1.0.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "audio.primary.exynos9810",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/hw/audio.primary.exynos9810.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	relative_install_path: "hw",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libSamsungPostProcessConvertor",
 	owner: "samsung",
 	strip: {
@@ -1500,23 +1234,6 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libSamsungPostProcessConvertor.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "lib_SamsungRec_06006",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/lib_SamsungRec_06006.so"],
 		},
 	},
 	compile_multilib: "32",
@@ -1645,23 +1362,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaudioproxy",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libaudioproxy.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libcnn",
 	owner: "samsung",
 	strip: {
@@ -1738,6 +1438,23 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libprofileparamstorage.so"],
+		},
+	},
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsecaudiocoreutils",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libsecaudiocoreutils.so"],
 		},
 	},
 	compile_multilib: "32",

@@ -31,15 +31,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos9810-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000045.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000045.drbin \
     vendor/samsung/exynos9810-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000062.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000062.tlbin \
     vendor/samsung/exynos9810-common/proprietary/vendor/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
-    vendor/samsung/exynos9810-common/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml \
-    vendor/samsung/exynos9810-common/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
-    vendor/samsung/exynos9810-common/proprietary/vendor/etc/audio_effects_common.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects_common.conf \
-    vendor/samsung/exynos9810-common/proprietary/vendor/etc/audio_effects_sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects_sec.xml \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/gnss/gps.cer:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cer \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/gnss/gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.xml \
-    vendor/samsung/exynos9810-common/proprietary/vendor/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hearing_aid_audio_policy_configuration.xml \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
@@ -52,16 +47,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
-    vendor/samsung/exynos9810-common/proprietary/vendor/etc/playback_record_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/playback_record_audio_policy_configuration.xml \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/plmn_delta_attaio.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_attaio.bin \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/plmn_delta_hktw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_hktw.bin \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/plmn_delta_usagsm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_usagsm.bin \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
-    vendor/samsung/exynos9810-common/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/sensor/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor/lhd.conf \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
-    vendor/samsung/exynos9810-common/proprietary/vendor/etc/tms_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tms_audio_policy_configuration.xml \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_b0 \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/wifi/bcmdhd_mon.bin_b2:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mon.bin_b2 \
@@ -115,8 +107,6 @@ PRODUCT_PACKAGES += \
     hwcomposer.exynos9810 \
     memtrack.exynos9810 \
     power.exynos9810 \
-    sound_trigger.primary.exynos9810 \
-    vendor.samsung.hardware.audio@1.0-impl \
     libExynosHWCService \
     libExynosOMX_Core \
     libExynosOMX_Resourcemanager \
@@ -127,8 +117,6 @@ PRODUCT_PACKAGES += \
     libOpenCv.camera.samsung \
     libRSDriverArm \
     libSEF.quram \
-    lib_SoundAlive_3DPosition_ver202 \
-    lib_SoundAlive_AlbumArt_ver105 \
     libacryl \
     libacryl_plugin_slsi_hdr10 \
     libbauthserver \
@@ -147,7 +135,6 @@ PRODUCT_PACKAGES += \
     libion_exynos \
     libiva_android_hal \
     libqfp_sensortest \
-    libsecaudiocoreutils \
     libsecaudioinfo \
     libsecnativefeature \
     libsecril-client.exynos9810 \
@@ -171,16 +158,7 @@ PRODUCT_PACKAGES += \
     libOMX.Exynos.WMV.Decoder \
     sensors.bio \
     sensors.grip \
-    libaudioeffectoffload \
-    libaudiosaplus_sec \
-    libgearvr \
-    libmysound \
-    libmyspace \
-    libplaybackrecorder \
-    vendor.samsung.hardware.audio@1.0 \
-    audio.primary.exynos9810 \
     libSamsungPostProcessConvertor \
-    lib_SamsungRec_06006 \
     lib_SoundAlive_SRC384_ver320 \
     lib_soundaliveresampler \
     libaboxpcmdump \
@@ -188,12 +166,12 @@ PRODUCT_PACKAGES += \
     libaudio-ril \
     libaudio_soundtrigger \
     libaudiodebugfs \
-    libaudioproxy \
     libcnn \
     libcodecdspdump \
     libdatamod \
     libhfd \
     libprofileparamstorage \
+    libsecaudiocoreutils \
     libstagefright_omx_vendor \
     libaudioroute.exynos9810 \
     libtinyalsa.exynos9810 \
