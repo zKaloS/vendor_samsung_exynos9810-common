@@ -1287,26 +1287,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "sensors.bio",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/sensors.bio.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/sensors.bio.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "sensors.grip",
 	owner: "samsung",
 	strip: {
@@ -1318,6 +1298,26 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/sensors.grip.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "sensors.sensorhub",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/sensors.sensorhub.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/sensors.sensorhub.so"],
 		},
 	},
 	compile_multilib: "both",
