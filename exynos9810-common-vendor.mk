@@ -147,6 +147,7 @@ PRODUCT_PACKAGES += \
     libuniplugin \
     libvkmanager_vendor \
     libvxu \
+    libwrappergps \
     libOMX.Exynos.AVC.Decoder \
     libOMX.Exynos.AVC.Encoder \
     libOMX.Exynos.AVC.WFD.Encoder \

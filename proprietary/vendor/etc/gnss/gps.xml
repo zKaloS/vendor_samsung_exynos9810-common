@@ -13,6 +13,7 @@
     CpColdStart="false"
     CpGuardTimeSec="1"
     CpLppGuardTimeSec="1"
+    CpLppeProvideHighAcc3DPosOnComIECap="true"
     ReAidingOnHotStart="false"
     SuplSslMethod="SSLv23_NO_TLSv1_2"
     SuplEnable="true"
