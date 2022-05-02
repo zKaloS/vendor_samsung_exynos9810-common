@@ -355,26 +355,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libRSDriverArm",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libRSDriverArm.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libRSDriverArm.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libSEF.quram",
 	owner: "samsung",
 	strip: {
@@ -1654,40 +1634,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libLLVM_android_mali",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libLLVM_android_mali.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libbcc_mali",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libbcc_mali.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libbt-vendor.exynos9810",
 	stem: "libbt-vendor",
 	owner: "samsung",
@@ -1975,18 +1921,6 @@ cc_prebuilt_library_shared {
 	check_elf_files: false,
 	prefer: true,
 	product_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "bcc_mali",
-	owner: "samsung",
-	srcs: ["proprietary/vendor/bin/bcc_mali"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
 }
 
 cc_prebuilt_binary {
