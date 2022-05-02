@@ -93,13 +93,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos9810-common/proprietary/vendor/openvx/cost/cost_c_std.dat:$(TARGET_COPY_OUT_VENDOR)/openvx/cost/cost_c_std.dat \
     vendor/samsung/exynos9810-common/proprietary/vendor/openvx/cost/cost_iva.dat:$(TARGET_COPY_OUT_VENDOR)/openvx/cost/cost_iva.dat \
     vendor/samsung/exynos9810-common/proprietary/vendor/openvx/cost/cost_score.dat:$(TARGET_COPY_OUT_VENDOR)/openvx/cost/cost_score.dat \
+    vendor/samsung/exynos9810-common/proprietary/vendor/etc/snap_gpu_kernel_64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_64.bin \
     vendor/samsung/exynos9810-common/proprietary/vendor/openvx/xml/_hifi_still_schedule.xml:$(TARGET_COPY_OUT_VENDOR)/openvx/xml/_hifi_still_schedule.xml
 
 PRODUCT_PACKAGES += \
+    libGLES_mali \
+    libgpudataproducer \
     camera.device@1.0-impl.exynos9810 \
     camera.device@3.3-impl.exynos9810 \
     camera.device@3.5-impl.exynos9810 \
-    libGLES_mali \
     gatekeeper.exynos9810 \
     gralloc.exynos9810 \
     hwcomposer.exynos9810 \
