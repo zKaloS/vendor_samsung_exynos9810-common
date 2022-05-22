@@ -169,7 +169,6 @@ PRODUCT_PACKAGES += \
     libaboxpcmdump \
     libalsautils_sec \
     libaudio-ril \
-    libaudio_soundtrigger \
     libaudiodebugfs \
     libcnn \
     libcodecdspdump \
