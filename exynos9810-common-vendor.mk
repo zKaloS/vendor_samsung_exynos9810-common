@@ -162,6 +162,7 @@ PRODUCT_PACKAGES += \
     libOMX.Exynos.WMV.Decoder \
     sensors.grip \
     sensors.sensorhub \
+    thermal.exynos9810 \
     libSamsungPostProcessConvertor \
     lib_SoundAlive_SRC384_ver320 \
     lib_soundaliveresampler \
