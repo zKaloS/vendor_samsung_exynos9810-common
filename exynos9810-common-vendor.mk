@@ -174,8 +174,6 @@ PRODUCT_PACKAGES += \
     libcodecdspdump \
     libdatamod \
     libhfd \
-    libprofileparamstorage \
-    libsecaudiocoreutils \
     libstagefright_omx_vendor \
     libaudioroute.exynos9810 \
     libtinyalsa.exynos9810 \
@@ -208,3 +206,10 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.gnss@2.0-service \
     mcDriverDaemon \
     vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service
+
+# Dolby Atmos
+ifeq ($(TARGET_HAVE_SAMSUNG_DAP),true)
+PRODUCT_PACKAGES += \
+    libprofileparamstorage \
+    libsecaudiocoreutils
+endif
