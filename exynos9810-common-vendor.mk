@@ -46,18 +46,24 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/sensor/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor/lhd.conf \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/samsung/exynos9810-common/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
-    vendor/samsung/exynos9810-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_b0 \
-    vendor/samsung/exynos9810-common/proprietary/vendor/etc/wifi/bcmdhd_mon.bin_b2:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mon.bin_b2 \
-    vendor/samsung/exynos9810-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_b0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_b0 \
-    vendor/samsung/exynos9810-common/proprietary/vendor/etc/wifi/indoorchannel.info:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/indoorchannel.info \
-    vendor/samsung/exynos9810-common/proprietary/vendor/etc/wifi/wldu.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wldu.conf \
     vendor/samsung/exynos9810-common/proprietary/vendor/firmware/HFD.cfg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/HFD.cfg.bin \
     vendor/samsung/exynos9810-common/proprietary/vendor/firmware/HFD.model.new:$(TARGET_COPY_OUT_VENDOR)/firmware/HFD.model.new \
     vendor/samsung/exynos9810-common/proprietary/vendor/firmware/HFD_PP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/HFD_PP.bin \
     vendor/samsung/exynos9810-common/proprietary/vendor/firmware/HFD_tracker.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/HFD_tracker.bin \
+    vendor/samsung/exynos9810-common/proprietary/vendor/firmware/bcm4361B2_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4361B2_murata.hcd \
+    vendor/samsung/exynos9810-common/proprietary/vendor/firmware/bcm4361B2_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4361B2_semco.hcd \
+    vendor/samsung/exynos9810-common/proprietary/vendor/firmware/bcmdhd_clm.blob:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd_clm.blob \
+    vendor/samsung/exynos9810-common/proprietary/vendor/firmware/bcmdhd_mfg.bin_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd_mfg.bin_b0 \
+    vendor/samsung/exynos9810-common/proprietary/vendor/firmware/bcmdhd_mfg.bin_b2:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd_mfg.bin_b2 \
+    vendor/samsung/exynos9810-common/proprietary/vendor/firmware/bcmdhd_mon.bin_b2:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd_mon.bin_b2 \
+    vendor/samsung/exynos9810-common/proprietary/vendor/firmware/bcmdhd_sta.bin_b0:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd_sta.bin_b0 \
+    vendor/samsung/exynos9810-common/proprietary/vendor/firmware/bcmdhd_sta.bin_b2:$(TARGET_COPY_OUT_VENDOR)/firmware/bcmdhd_sta.bin_b2 \
     vendor/samsung/exynos9810-common/proprietary/vendor/firmware/cs47l92-dsp1-trace.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs47l92-dsp1-trace.wmfw \
     vendor/samsung/exynos9810-common/proprietary/vendor/firmware/dsm.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsm.bin \
     vendor/samsung/exynos9810-common/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
+    vendor/samsung/exynos9810-common/proprietary/vendor/firmware/nvram.txt_murata_r041_b2:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_murata_r041_b2 \
+    vendor/samsung/exynos9810-common/proprietary/vendor/firmware/nvram.txt_r02a_b2:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_r02a_b2 \
+    vendor/samsung/exynos9810-common/proprietary/vendor/firmware/nvram.txt_r02b_b2:$(TARGET_COPY_OUT_VENDOR)/firmware/nvram.txt_r02b_b2 \
     vendor/samsung/exynos9810-common/proprietary/vendor/firmware/score/camera1/score_kc1_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_kc1_dmb.bin \
     vendor/samsung/exynos9810-common/proprietary/vendor/firmware/score/camera1/score_kc1_pmw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_kc1_pmw.bin \
     vendor/samsung/exynos9810-common/proprietary/vendor/firmware/score/camera1/score_kc2_dmb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score/camera1/score_kc2_dmb.bin \
