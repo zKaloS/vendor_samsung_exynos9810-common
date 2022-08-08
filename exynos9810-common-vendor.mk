@@ -180,7 +180,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.gnss@2.0-impl \
     libbt-vendor.exynos9810 \
     libengmode_client \
-    libflicker \
     libkeymaster2_mdfpp \
     libmpp \
     libril_sem \
