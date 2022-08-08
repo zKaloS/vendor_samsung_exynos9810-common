@@ -353,6 +353,48 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libdrm.exynos9810",
+	stem: "libdrm",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libdrm.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libdrm.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libdrmresource.exynos9810",
+	stem: "libdrmresource",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libdrmresource.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libdrmresource.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libMcClient",
 	owner: "samsung",
 	strip: {

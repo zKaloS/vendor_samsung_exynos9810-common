@@ -203,6 +203,11 @@ PRODUCT_PACKAGES += \
     mcDriverDaemon \
     vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service
 
+# HWComposer
+PRODUCT_PACKAGES += \
+    libdrm.exynos9810 \
+    libdrmresource.exynos9810
+
 # Dolby Atmos
 ifeq ($(TARGET_HAVE_SAMSUNG_DAP),true)
 PRODUCT_PACKAGES += \
