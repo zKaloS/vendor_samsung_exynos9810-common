@@ -102,7 +102,6 @@ PRODUCT_PACKAGES += \
     gatekeeper.exynos9810 \
     gralloc.exynos9810 \
     hwcomposer.exynos9810 \
-    memtrack.exynos9810 \
     power.exynos9810 \
     libExynosHWCService \
     libExynosOMX_Core \
