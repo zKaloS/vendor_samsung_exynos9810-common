@@ -136,8 +136,6 @@ PRODUCT_PACKAGES += \
     libsecnativefeature \
     libsecril-client.exynos9810 \
     libsemnativecarrierfeature \
-    libSemDataProps \
-    libSemTelephonyProps \
     libsensorlistener \
     libstagefrighthw \
     libsynaFpSensorTestNwd \
@@ -184,17 +182,15 @@ PRODUCT_PACKAGES += \
     libengmode_client \
     libkeymaster2_mdfpp \
     libmpp \
-    libril_sem \
+    libril-samsung \
     libsec-ril \
-    libsec_semRil \
+    libsec-ril-dsds \
     libskeymaster3device \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.radio.bridge@2.0 \
-    vendor.samsung.hardware.radio.bridge@2.1 \
     vendor.samsung.hardware.radio.channel@2.0 \
     vendor.samsung.hardware.radio@2.0 \
     vendor.samsung.hardware.radio@2.1 \
-    vendor.samsung.hardware.radio@2.2 \
     vendor.samsung.hardware.security.widevine.keyprovisioning@1.0 \
     libaptX_encoder \
     cbd \
